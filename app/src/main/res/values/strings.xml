@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Copenhagen City Guide</string>
+    <string name="info_page_name">Information</string>
+    <string name="category_attractions">Sights</string>
+    <string name="category_things_to_do">Activities</string>
+    <string name="category_museums">Museums</string>
+    <string name="category_food_and_drink">Eateries</string>
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="nyhavn">Nyhavn</string>
+    <string name="tivoli_gardens_address">Vesterbrogade 3, 1630 København V</string>
+    <string name="little_mermaid_address">Langelinie, 2100 København Ø</string>
+    <string name="national_museum_address">Princes Mansion, Ny Vestergade 10, 1471 København K</string>
+    <string name="nyhavn_address">Nyhavn 1-71 1051 København K</string>
+    <string name="christiania_address">Prinsessegade 1422 København K</string>
+    <string name="louisiana_museum_address">Gl Strandvej 13, 3050 Humlebæk</string>
+    <string name="rosenborg_castle_address">Øster Voldgade 4A, 1350 København</string>
+    <string name="design_museum_address">Bredgade 68, 1260 København</string>
+    <string name="workers_museum_address">22 Rømersgade København K, 1362 København</string>
+    <string name="tivoli_gardens_info">Tivoli is an amusement park in Copenhagen.
+        It is located very close to the Central Station and the City Hall.
+        Founded in 1843, it offers visitors a beautiful scenery with historical and fantastic architecture and a stunning atmosphere created with colorful lights at night. </string>
+    <string name="little_mermaid_info">One of the most famous attractions of Copenhagen is the iconic statue of little mermaid.
+        It was presented as  gift to the city of Copenhagen from Danish brewer Carl Jacobsen in 1913. Located at Langelinje Pier, the statue is made of bronze and granite.
+    It was inspired by Hans Christian Andersen`s fairytale about a mermaid.</string>
+    <string name="nyhavn_info">Nyhavn was a commercial port visited by ships from all over the world.
+        It is a great place to enjoy the canal, food and the atmosphere along the beautiful renovated houses. </string>
+    <string name="christiania_info">Freetown Christiania is best known for the autonomous life of is inhabitants.
+        It was established in 1971 by a group of hippies who developed their own societal rules.
+     In the entrance, there are signs indicating do` and don`s of the area.</string>
+    <string name="rosenborg_castle_info">A royal hermitage set in the King’s Garden in the heart of Copenhagen, Rosenborg Castle features 400 years of splendor, royal art treasures and the Crown Jewels and Royal Regalia.
+        Rosenborg Castle was built by one of the most famous Scandinavian kings, Christian IV, in the early 17th century. </string>
+    <string name="national_museum_info">Denmark`s National Museum in Copenhagen has exhibitions from the Stone Age, the Viking Age, the Middle Ages, the Renaissance and Modern Danish History.
+        The National Museum is located in The Prince’s Palace, built in 1743-44. It is no longer used by the royal family, but the Great Hall still appears elegant enough to fit princes and princesses. </string>
+    <string name="louisiana_museum_info">The beautiful museum, Louisiana Museum of Modern Art, is located 40 kilometres north of Copenhagen and it has gained a reputation as a museum in touch with the zeitgeist of the contemporary art world.
+        Experience international artists, concerts and lectures </string>
+    <string name="design_museum_info">Designmuseum Danmark offers displays of decorative art, crafts, and industrial designs from the Western world and Asia from the late Middle Ages and up to the present.
+        Earlier, the museum was the first public hospital in Denmark; The Royal Frederik's Hospital, where Søren Kierkegaard was admitted and died in 1855. </string>
+    <string name="workers_museum_info">The Workers Museum in Copenhagen invites you to step into everyday life of Copenhageners in the 1950s. </string>
+    <string name="rent_a_bike_info">In Copenhagen practically everybody rides a bike.
+        You can rent a bike and cruise around and explore the city on two wheels. </string>
+    <string name="events_info">You can find a variety of events to attend ranging from exhibitions to sport events. </string>
+    <string name="flea_market_info">Every year, the streets of Copenhagen are filled with clothing, furniture and `hygge`, when the flea markets take place throughout especially the spring, summer and autumn.
+        Flea markets in Denmark are not only about finding the best deals, but also about the great atmosphere </string>
+    <string name="walking_tour_info">Copenhagen is small enough for you to experience it by foot.
+        But if you do not know where the good sights are and the stories they tell, then what good does it do?
+        Luckily for you there are lots of great guided tours around the city with very different themes and objectives.
+        The traditional walking tours will take you to the most significant sights and important places in Copenhagen city centre and show you the best of the cty in a few hours.
+        But you will also find food tours, design tours etc. </string>
+    <string name="boat_tour_info">Copenhagen is an old harbour and maritime city, and one of the most beautiful and enjoyable ways to see it, is from a boat sailing down its charming canals.
+        Take a traditional canal tour boat or a romantic gondola, be the captain of your own solar energy-driven boat, be adventurous in a kayak, or go fishing.
+        The possibilities on water are endless. </string>
+    <string name="breakfast_and_brunch_info">Are you an early riser or arriving in Copenhagen in the morning you need not despair.
+        There are plenty of cafés and restaurants serving an early breakfast and brunch.</string>
+    <string name="michelin_starred_restaurants_info">Guide Michelin Nordic Cities 2018 has awarded a total of 19 stars to 15 restaurants in Copenhagen.
+        Geranium tops the list as the only restaurant in Denmark with three stars, while AOC and Kadeau hold two stars. </string>
+    <string name="local_danish_food_info">You can enjoy your hot dog (bread with sausage, ketchup and mustard) at the many hot dogs stands around the streets of Copenhagen, as well as smørrebrød (open sandwiches) which are usually eaten for lunch at one of the many old style restaurants. </string>
+    <string name="great_cheap_eats_info">Long known as a culinary hotspot boasting Michelin stars, the worlds best restaurant, and the New Nordic cuisine movement, Copenhagen is also a foodie-friendly destination for budget travelers </string>
+
+</resources>
