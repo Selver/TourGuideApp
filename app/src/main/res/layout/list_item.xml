@@ -15,7 +15,7 @@
 
     <LinearLayout
         android:id="@+id/text_container"
-        android:layout_width="@dimen/dimen185"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="@dimen/dimen16"

@@ -21,10 +21,10 @@ public class MuseumsFragment extends Fragment {
 
         final ArrayList<Item> items = new ArrayList<Item>();
 
-        items.add(new Item(R.drawable.national_museum, "National Museum", R.string.national_museum_address, R.string.national_museum_info));
-        items.add(new Item(R.drawable.louisiana_museum, "Louisiana Museum", R.string.louisiana_museum_address, R.string.louisiana_museum_info));
-        items.add(new Item(R.drawable.design_museum, "Design Museum", R.string.design_museum_address, R.string.design_museum_info));
-        items.add(new Item(R.drawable.workers_museum, "The Workers Museum", R.string.workers_museum_address, R.string.workers_museum_info));
+        items.add(new Item(R.drawable.national_museum, R.string.national_museum, R.string.national_museum_address, R.string.national_museum_info));
+        items.add(new Item(R.drawable.louisiana_museum, R.string.louisiana_museum, R.string.louisiana_museum_address, R.string.louisiana_museum_info));
+        items.add(new Item(R.drawable.design_museum, R.string.design_museum, R.string.design_museum_address, R.string.design_museum_info));
+        items.add(new Item(R.drawable.workers_museum, R.string.workers_museum, R.string.workers_museum_address, R.string.workers_museum_info));
 
         // Create an {@link ArrayAdapter}
         ItemAdapter adapter = new ItemAdapter(getActivity(), items);

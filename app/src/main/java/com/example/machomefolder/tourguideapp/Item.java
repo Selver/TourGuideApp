@@ -17,7 +17,7 @@ public class Item implements Parcelable {
 
     //The following items are shown on the fragments screen
     private int mImageResourceId;
-    private String mName;
+    private int mName;
 
     //The address of the item if provided
     private int mAddress = NO_ADDRESS_PROVIDED;
@@ -27,7 +27,7 @@ public class Item implements Parcelable {
     private int mInfo;
 
     //Creating the constructor without address info
-    public Item(int photo, String name, int info) {
+    public Item(int photo, int name, int info) {
         //The variables take the value of the arguments
         mImageResourceId = photo;
         mName = name;
@@ -35,7 +35,7 @@ public class Item implements Parcelable {
     }
 
     //Creating the constructor with address info
-    public Item(int photo, String name, int address, int info) {
+    public Item(int photo, int name, int address, int info) {
         //The variables take the value of the arguments
         mImageResourceId = photo;
         mName = name;
@@ -49,7 +49,7 @@ public class Item implements Parcelable {
     }
 
     //Get the name of the item
-    public String getName() {
+    public int getName() {
         return mName;
     }
 
@@ -70,7 +70,7 @@ public class Item implements Parcelable {
     // Parcel
     public Item(Parcel in) {
         this.mImageResourceId = in.readInt();
-        this.mName = in.readString();
+        this.mName = in.readInt();
         this.mAddress = in.readInt();
         this.mInfo = in.readInt();
     }
@@ -83,7 +83,7 @@ public class Item implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeInt(mImageResourceId);
-        dest.writeString(mName);
+        dest.writeInt(mName);
         dest.writeInt(mAddress);
         dest.writeInt(mInfo);
     }

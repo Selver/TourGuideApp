@@ -24,10 +24,10 @@ public class EateriesFragment extends Fragment {
 
         final ArrayList<Item> items = new ArrayList<Item>();
 
-        items.add(new Item(R.drawable.breakfast_and_brunch, "Breakfast and Brunch", R.string.breakfast_and_brunch_info));
-        items.add(new Item(R.drawable.michelin_starred_restaurants, "Michelin-Starred Restaurants", R.string.michelin_starred_restaurants_info));
-        items.add(new Item(R.drawable.local_food, "Local Danish Food", R.string.local_danish_food_info));
-        items.add(new Item(R.drawable.great_cheap_eats, "Great Cheap Eats ", R.string.great_cheap_eats_info));
+        items.add(new Item(R.drawable.breakfast_and_brunch, R.string.breakfast_and_brunch, R.string.breakfast_and_brunch_info));
+        items.add(new Item(R.drawable.michelin_starred_restaurants, R.string.michelin_starred_restaurants, R.string.michelin_starred_restaurants_info));
+        items.add(new Item(R.drawable.local_food, R.string.local_danish_food, R.string.local_danish_food_info));
+        items.add(new Item(R.drawable.great_cheap_eats, R.string.great_cheap_eats, R.string.great_cheap_eats_info));
 
         // Create an {@link ArrayAdapter}
         ItemAdapter adapter = new ItemAdapter(getActivity(), items);

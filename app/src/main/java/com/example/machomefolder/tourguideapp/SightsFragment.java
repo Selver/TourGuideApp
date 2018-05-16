@@ -24,11 +24,11 @@ public class SightsFragment extends Fragment {
 
         final ArrayList<Item> items = new ArrayList<Item>();
 
-        items.add(new Item(R.drawable.tivoli_gardens, "Tivoli Gardens", R.string.tivoli_gardens_address, R.string.tivoli_gardens_info));
-        items.add(new Item(R.drawable.little_mermaid, "Little Mermaid", R.string.little_mermaid_address, R.string.little_mermaid_info));
-        items.add(new Item(R.drawable.nyhavn, "Nyhavn", R.string.nyhavn_address, R.string.nyhavn_info));
-        items.add(new Item(R.drawable.christiania, "Christiania", R.string.christiania_address, R.string.christiania_info));
-        items.add(new Item(R.drawable.rosenborg_castle, "Rosenborg Castle", R.string.rosenborg_castle_address, R.string.rosenborg_castle_info));
+        items.add(new Item(R.drawable.tivoli_gardens, R.string.tivoli_gardens, R.string.tivoli_gardens_address, R.string.tivoli_gardens_info));
+        items.add(new Item(R.drawable.little_mermaid, R.string.little_mermaid, R.string.little_mermaid_address, R.string.little_mermaid_info));
+        items.add(new Item(R.drawable.nyhavn, R.string.nyhavn, R.string.nyhavn_address, R.string.nyhavn_info));
+        items.add(new Item(R.drawable.christiania, R.string.christiania, R.string.christiania_address, R.string.christiania_info));
+        items.add(new Item(R.drawable.rosenborg_castle, R.string.rosenborg_castle, R.string.rosenborg_castle_address, R.string.rosenborg_castle_info));
 
         // Create an {@link ArrayAdapter}
         ItemAdapter adapter = new ItemAdapter(getActivity(), items);
@@ -40,7 +40,6 @@ public class SightsFragment extends Fragment {
         listView.setAdapter(adapter);
 
         return rootView;
-
     }
 }
 

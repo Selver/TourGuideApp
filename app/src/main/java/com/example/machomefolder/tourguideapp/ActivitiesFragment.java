@@ -24,11 +24,11 @@ public class ActivitiesFragment extends Fragment {
 
         final ArrayList<Item> items = new ArrayList<Item>();
 
-        items.add(new Item(R.drawable.rent_a_bike, "Rent A Bike", R.string.rent_a_bike_info));
-        items.add(new Item(R.drawable.events, "Events", R.string.events_info));
-        items.add(new Item(R.drawable.flea_market, "Flea Market", R.string.flea_market_info));
-        items.add(new Item(R.drawable.walking_tour, "Walking Tour ", R.string.walking_tour_info));
-        items.add(new Item(R.drawable.boat_tour, "Boat Tour", R.string.boat_tour_info));
+        items.add(new Item(R.drawable.rent_a_bike,R.string.rent_a_bike, R.string.rent_a_bike_info));
+        items.add(new Item(R.drawable.events, R.string.events, R.string.events_info));
+        items.add(new Item(R.drawable.flea_market,R.string.flea_market, R.string.flea_market_info));
+        items.add(new Item(R.drawable.walking_tour, R.string.walking_tour, R.string.walking_tour_info));
+        items.add(new Item(R.drawable.boat_tour, R.string.boat_tour, R.string.boat_tour_info));
 
         // Create an {@link ArrayAdapter}
         ItemAdapter adapter = new ItemAdapter(getActivity(), items);
