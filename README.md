@@ -4,4 +4,7 @@
 <img src="https://user-images.githubusercontent.com/28065277/39950250-45c30f78-5580-11e8-9c85-413a046051c1.png" width="250">
 <img src="https://user-images.githubusercontent.com/28065277/39950252-4724d8ba-5580-11e8-96f8-87903caa988d.png" width="250">
 
-Note: Descriptions in the app are based on the website: https://www.visitcopenhagen.com/copenhagen-tourist
+Exemplifies use of custom class, custom class adapter, fragments, and navigation patterns (ViewPager with TabLayout).
+Descriptions in the app are based on the website: https://www.visitcopenhagen.com/copenhagen-tourist
+
+This app is built for educational uses only. 
